@@ -2,10 +2,21 @@
 
 For all your node touching needs.
 
+This is a fork of Isaac Schlueter's [`touch`](https://github.com/isaacs/node-touch) module. This adds the ability to use touch from npm scripts in a cross platform manner, like so:
+
+```json
+{
+  "scripts": {
+    "touch": "touch foo",
+    "remove": "rimraf foo"
+  }
+}
+```
+
 ## Installing
 
 ```bash
-npm install touch
+npm install --save-dev https://github.com/shovon/node-touch/tarball/v0.1.0
 ```
 
 ## CLI Usage:
