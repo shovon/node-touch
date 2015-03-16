@@ -16,7 +16,7 @@ This is a fork of Isaac Schlueter's [`touch`](https://github.com/isaacs/node-tou
 ## Installing
 
 ```bash
-npm install --save-dev https://github.com/shovon/touch/tarball/v0.1.0
+npm install --save-dev https://github.com/shovon/node-touch/tarball/v0.1.0
 ```
 
 ## CLI Usage:
